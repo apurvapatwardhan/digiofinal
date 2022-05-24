@@ -1,0 +1,23 @@
+.detail__parent {
+    background: rgba(0,0,0,0.7);
+    height: 100vh;
+}
+
+.timer {
+    position: absolute;
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    flex-direction: column;
+}
+
+.timer p {
+    font-size: small;
+    margin-top: -10px;
+}
+
+.verified {
+    border-top: 1px solid black;
+    background: #D9EAD3;
+    text-align: center;
+}

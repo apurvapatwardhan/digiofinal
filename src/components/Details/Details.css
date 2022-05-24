@@ -1,0 +1,42 @@
+.details {
+    opacity: 0.2;
+    display: flex;
+    background: black;
+    z-index: -1;
+    height: 100vh;
+}
+
+.details__visible {
+    display: flex;
+    height: 100vh;
+}
+
+.doc {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.doc img {
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+}
+
+.sign {
+    width: 50%;
+    align-self: center;
+    background: #0261B0;
+    color: white;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .doc {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
